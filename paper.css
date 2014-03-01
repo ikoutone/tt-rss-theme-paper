@@ -609,3 +609,15 @@ div#floatingTitle {
   border-color: #464646;
   border-bottom-width: 5px;
 }
+
+/* set font to gray normal for all read */
+div.cdm.expandable div.cdmHeader a.title {
+    font-weight: normal;
+    color: #ccc;
+}
+
+/* set font to bold black for unread */
+div.cdm.expandable.Unread div.cdmHeader a.title {
+    font-weight: bold;
+    color: #ccc;
+}
